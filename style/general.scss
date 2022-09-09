@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "variables";
+
+body {
+  background-color: $light-gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import "card";
